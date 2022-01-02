@@ -26,11 +26,11 @@
 					</div>
 					<div slot="content">
 						<div class="title">
-							Museum of Nifty Art
+							DExhibition
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://github.com/matfantinel/matfantinel.github.io"
+									href="https://github.com/the-nifty-lair/monorepo"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
@@ -67,17 +67,16 @@
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://github.com/matfantinel/moneta"
+									href="https://github.com/tokencard/contracts"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
 								>
 									<Github />
 								</a>
-
 								<a
 									class="text-secondary"
-									href="https://appcenter.elementary.io/com.github.matfantinel.moneta/"
+									href="https://monolith.xyz/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -109,7 +108,16 @@
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://gestek.com.br/"
+									href="https://github.com/provable-things"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a>
+								<a
+									class="text-secondary"
+									href="https://provable.xyz/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -118,7 +126,9 @@
 								</a>
 							</div>
 						</div>
-						<div class="text">Cross-chain blockchain oracle</div>
+						<div class="text">
+							Blockchain-agnostic oracle service. The first Oracle on Ethereum Mainnet!
+						</div>
 					</div>
 					<div slot="footer">
 						<div class="tags">
@@ -137,21 +147,20 @@
 					</div>
 					<div slot="content">
 						<div class="title">
-							pNetwork
+							pTokens
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://github.com/matfantinel/moneta"
+									href="https://github.com/provable-things"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
 								>
 									<Github />
 								</a>
-
 								<a
 									class="text-secondary"
-									href="https://appcenter.elementary.io/com.github.matfantinel.moneta/"
+									href="https://ptokens.io/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -160,11 +169,13 @@
 								</a>
 							</div>
 						</div>
-						<div class="text">Cross-chain defi bridge</div>
+						<div class="text">Cross-chain DeFi</div>
 					</div>
 					<div slot="footer">
 						<div class="tags">
 							<Tag>DeFi</Tag>
+							<Tag>Typescript</Tag>
+							<Tag>Smart Contracts</Tag>
 						</div>
 					</div>
 				</Card>
@@ -181,7 +192,7 @@
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://github.com/matfantinel/moneta"
+									href="https://github.com/2r1l/ethcc4-hackathon"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
@@ -191,7 +202,7 @@
 
 								<a
 									class="text-secondary"
-									href="https://appcenter.elementary.io/com.github.matfantinel.moneta/"
+									href="https://mumbai.reactions.eth.link/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -200,7 +211,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="text">Cross-chain defi bridge</div>
+						<div class="text">NFT Social Network</div>
 					</div>
 					<div slot="footer">
 						<div class="tags">
@@ -222,7 +233,7 @@
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://github.com/matfantinel/moneta"
+									href="https://github.com/gamejitsu"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
@@ -232,7 +243,7 @@
 
 								<a
 									class="text-secondary"
-									href="https://appcenter.elementary.io/com.github.matfantinel.moneta/"
+									href="https://gamejitsu.io/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -241,7 +252,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="text">Cross-chain defi bridge</div>
+						<div class="text">Async e-sport coaching platform</div>
 					</div>
 					<div slot="footer">
 						<div class="tags">
