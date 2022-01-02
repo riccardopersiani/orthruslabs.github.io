@@ -4,7 +4,6 @@
 	import Section from '$lib/components/layout/section.svelte';
 	import LowAccentHighlight from '$lib/components/style/low-accent-highlight.svelte';
 	import Tag from '../base/tag.svelte';
-	import Blobs from '../layout/blobs.svelte';
 
 	const careerStart = new Date(2017, 9, 1);
 	const yearsOfExperience = Math.abs(
@@ -21,15 +20,15 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'Vue'
+					text: 'Ethereum and EVM-compatible'
 				},
 				{
 					color: 'primary',
-					text: 'React'
+					text: 'EOS'
 				},
 				{
 					color: 'primary',
-					text: 'Svelte'
+					text: 'Hyperledger Fabric'
 				}
 			]
 		},
@@ -43,19 +42,15 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'Vue'
+					text: 'ERC721'
 				},
 				{
 					color: 'primary',
-					text: 'AngularJS'
+					text: 'ERC1155'
 				},
 				{
 					color: 'secondary',
-					text: '.NET'
-				},
-				{
-					color: 'secondary',
-					text: 'SQL'
+					text: 'OpenSea'
 				}
 			]
 		},
@@ -68,15 +63,15 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'Angular'
+					text: 'Ledger'
 				},
 				{
 					color: 'primary',
-					text: 'Ionic'
+					text: 'Gnosis Multisig'
 				},
 				{
 					color: 'primary',
-					text: 'Electron'
+					text: 'Fireblocks'
 				}
 			]
 		},
@@ -90,15 +85,11 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'JQuery'
+					text: 'Whitepapers'
 				},
 				{
 					color: 'secondary',
-					text: '.NET'
-				},
-				{
-					color: 'secondary',
-					text: 'SQL'
+					text: 'R&D Reports'
 				}
 			]
 		},
@@ -111,15 +102,7 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'JQuery'
-				},
-				{
-					color: 'secondary',
-					text: '.NET'
-				},
-				{
-					color: 'secondary',
-					text: 'SQL'
+					text: 'Security'
 				}
 			]
 		},
@@ -132,15 +115,11 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'JQuery'
+					text: 'Blog'
 				},
 				{
-					color: 'secondary',
-					text: '.NET'
-				},
-				{
-					color: 'secondary',
-					text: 'SQL'
+					color: 'primary',
+					text: 'Journals'
 				}
 			]
 		},
@@ -154,15 +133,11 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'JQuery'
+					text: 'Conferences'
 				},
 				{
 					color: 'secondary',
-					text: '.NET'
-				},
-				{
-					color: 'secondary',
-					text: 'SQL'
+					text: 'Workshops'
 				}
 			]
 		},
@@ -175,15 +150,7 @@
 			tags: [
 				{
 					color: 'primary',
-					text: 'JQuery'
-				},
-				{
-					color: 'secondary',
-					text: '.NET'
-				},
-				{
-					color: 'secondary',
-					text: 'SQL'
+					text: 'ERC20'
 				}
 			]
 		}
