@@ -2,7 +2,7 @@
 slug: test
 title: Test
 date: 2022-01-02
-excerpt: "Test exerpt."
+excerpt: 'Test.'
 tags: [Test]
 ---
 
