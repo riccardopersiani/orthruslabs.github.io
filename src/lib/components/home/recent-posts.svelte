@@ -10,7 +10,7 @@
 <section id="recent-posts">
 	<Section
 		title="Philosophy & Reflections"
-		description="Sometimes, we formalize our toughts into blog."
+		description="This blog is where our view is formalized and how journey is shared."
 		buttonText="View all posts"
 		buttonUrl="/blog"
 	>

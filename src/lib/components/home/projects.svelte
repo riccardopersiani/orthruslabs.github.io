@@ -7,7 +7,6 @@
 	import ExternalLinkIcon from '$lib/svg/external-link.svelte';
 	import Github from '$lib/svg/socials/github.svelte';
 	import Blobs from '../layout/blobs.svelte';
-	import Image from '../base/image.svelte';
 	import Tag from '../base/tag.svelte';
 </script>
 
@@ -15,7 +14,7 @@
 	<Section
 		align="top"
 		title="Projects"
-		description="I like to build some small projects when learning. Technologies are varied and so are their purposes. Most of them are open source!"
+		description="We like to architect, develop and deploy fun and crazy stuff on the blockchain and web3! We like to work on projects which share our ethic and valors."
 	>
 		<OneByOneGrid>
 			<ProjectsGrid>
