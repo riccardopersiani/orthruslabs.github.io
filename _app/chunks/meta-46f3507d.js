@@ -1,1 +1,0 @@
-const e="https://orthruslabs.github.io",i=["Riccardo Persiani","","Web3 Development","Blockchain Engineer","Open Source"],t="I'm a blockchain engineer building the future of finance. I build crazy stuff on the web3, and sometimes write about it.",s="Orthrus Labs - Blockchain R&D",a="https://orthruslabs.github.io/images/site-preview.png";export{t as d,a as i,i as k,e as s,s as t};
