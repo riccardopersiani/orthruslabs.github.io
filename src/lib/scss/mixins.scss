@@ -1,15 +1,15 @@
-@import './breakpoints.scss';
+@import "./breakpoints.scss";
 
 @mixin padded-container {
-	width: 100%;
+  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 
   @include for-iphone-se {
-   padding-left: 0; 
-   padding-right: 0; 
+    padding-left: 0;
+    padding-right: 0;
   }
 
   @include for-tablet-portrait-up {

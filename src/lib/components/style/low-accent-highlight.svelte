@@ -1,21 +1,22 @@
 <script>
   export let id;
 </script>
+
 <div class="wrapper" {id}>
-	<slot />
+  <slot />
 </div>
 
 <style lang="scss">
   :root {
     --bg-color: var(--primary-light-color);
   }
-	.wrapper {
-		position: relative;
-		display: inline-block;
+  .wrapper {
+    position: relative;
+    display: inline-block;
     z-index: 1;
 
     &::before {
-      content: '';
+      content: "";
       width: calc(100% + 4px);
       background: var(--bg-color);
       height: 10px;
@@ -24,5 +25,5 @@
       left: -2px;
       z-index: -1;
     }
-	}
+  }
 </style>

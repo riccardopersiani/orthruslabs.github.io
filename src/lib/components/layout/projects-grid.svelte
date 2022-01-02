@@ -3,7 +3,7 @@
 </div>
 
 <style lang="scss">
-  @import '../../scss/breakpoints.scss';
+  @import "../../scss/breakpoints.scss";
 
   .grid-container {
     width: 100%;
@@ -17,7 +17,7 @@
 
     // Select every 3 elements, starting from position 2
     // And make it take up 2 rows
-    > :global(:nth-child(3n+2)) {
+    > :global(:nth-child(3n + 2)) {
       grid-row: span 2;
     }
   }
