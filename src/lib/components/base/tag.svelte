@@ -1,7 +1,3 @@
-<script>
-  export let color = "primary";
-</script>
-
 <div id="tag" class="btn btn-secondary">
   <slot />
 </div>

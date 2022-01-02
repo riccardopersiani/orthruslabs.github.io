@@ -1,8 +1,8 @@
 <section id="hero">
-  <div
+  <div id="hero-div"
     class="hero min-h-screen"
-    style="background-image: url(&quot;/static/images/hero.jpg&quot;);"
   >
+  
     <div class="hero-overlay bg-opacity-20" />
     <div class="text-center hero-content text-neutral-content">
       <div class="max-w-md">
@@ -34,70 +34,9 @@
     @include for-phone-only {
       padding: 0px 0 50px;
     }
+  }
 
-    .hello {
-      text-align: center;
-    }
-
-    .intro {
-      font-weight: 500;
-      font-size: 1.4rem;
-      width: min(100%, 440px);
-      display: flex;
-      flex-direction: column;
-
-      .left {
-        text-align: left;
-      }
-      .right {
-        text-align: right;
-      }
-
-      @include for-phone-only {
-        display: none;
-      }
-    }
-
-    .ctas {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      width: 100%;
-
-      a {
-        flex: 0 0 180px;
-
-        &#projects-btn {
-          order: 1;
-        }
-        &#blog-btn {
-          order: 2;
-        }
-        &#experience-btn {
-          order: 3;
-        }
-      }
-
-      @include for-phone-only {
-        a {
-          flex: 0 0 160px;
-
-          &#projects-btn {
-            order: 1;
-          }
-          &#blog-btn {
-            order: 3;
-          }
-          &#experience-btn {
-            order: 2;
-          }
-        }
-      }
-      @include for-iphone-se {
-        grid-template-columns: 1fr;
-      }
-    }
+  #hero-div {
+    background-image: url("https://github.com/riccardopersiani/orthruslabs.github.io/blob/main/static/images/hero.jpg?raw=true");
   }
 </style>

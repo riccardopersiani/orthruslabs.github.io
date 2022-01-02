@@ -21,10 +21,9 @@
   <meta property="og:image" content={image} />
   <meta name="twitter:image" content={image} />
 </svelte:head>
-<Header>
+
+<Header />
   <main>
     <slot />
   </main>
-</Header>
-<slot />
 <Footer />

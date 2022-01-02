@@ -47,7 +47,7 @@
 
               <a
                 class="project-post-button button secondary-light transparent"
-                href=""
+                href={'#'}
               >
                 Check Demo
               </a>

@@ -13,7 +13,10 @@ const config = {
   // for more information about preprocessors
   preprocess: [
     preprocess({
-      preserve: ["module"],
+      preserve: ["module"],defaults: {
+        style: 'postcss'
+      },
+      postcss: true
     }),
     mdsvex({
       extensions: extensions,
@@ -42,9 +45,6 @@ const config = {
     // hydrate the <div id="svelte-root"> element in src/app.html
     target: "#svelte-root",
     adapter: adapter(),
-    paths: {
-      // YOUR github repository name
-    },
   },
 };
 

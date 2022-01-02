@@ -1,8 +1,6 @@
 <script>
   import Logo from "$lib/svg/logo.svelte";
   import Socials from "$lib/components/base/socials.svelte";
-
-  export let animated = true;
 </script>
 
 <header>
@@ -46,7 +44,7 @@
         </a>
         <a
           id="youtube-btn"
-          href="/blog"
+          href={'#'}
           class="btn btn-ghost btn-sm rounded-btn"
         >
           <svg
@@ -63,7 +61,7 @@
         </a>
         <a
           id="facebook-btn"
-          href="/blog"
+          href={'#'}
           class="btn btn-ghost btn-sm rounded-btn"
         >
           <svg
@@ -79,7 +77,7 @@
         </a>
         <a
           id="facebook-btn"
-          href="/blog"
+          href={'#'}
           class="btn btn-ghost btn-sm rounded-btn"
         >
           <svg
@@ -95,7 +93,7 @@
         </a>
         <a
           id="facebook-btn"
-          href="/blog"
+          href={'#'}
           class="btn btn-ghost btn-sm rounded-btn"
         >
           <svg
@@ -147,71 +145,6 @@
 
     @include for-phone-only {
       padding: 40px 0 50px;
-    }
-
-    .hello {
-      text-align: center;
-    }
-
-    .intro {
-      font-weight: 500;
-      font-size: 1.4rem;
-      width: min(100%, 440px);
-      display: flex;
-      flex-direction: column;
-
-      .left {
-        text-align: left;
-      }
-      .right {
-        text-align: right;
-      }
-
-      @include for-phone-only {
-        display: none;
-      }
-    }
-
-    .ctas {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      width: 100%;
-
-      a {
-        flex: 0 0 180px;
-
-        &#projects-btn {
-          order: 1;
-        }
-        &#blog-btn {
-          order: 2;
-        }
-        &#experience-btn {
-          order: 3;
-        }
-      }
-
-      @include for-phone-only {
-        a {
-          flex: 0 0 160px;
-
-          &#projects-btn {
-            order: 1;
-          }
-          &#blog-btn {
-            order: 3;
-          }
-          &#experience-btn {
-            order: 2;
-          }
-        }
-      }
-      @include for-iphone-se {
-        grid-template-columns: 1fr;
-      }
     }
   }
 </style>

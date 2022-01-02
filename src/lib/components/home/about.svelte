@@ -53,54 +53,6 @@
         }
       }
     }
-
-    .avatar {
-      width: 250px;
-      height: 250px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      .image {
-        width: 80%;
-        height: 80%;
-        position: relative;
-        border-radius: 50%;
-        overflow: hidden;
-      }
-
-      .blob {
-        position: absolute;
-        animation: spin 2s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
-        animation-fill-mode: forwards;
-        animation-play-state: paused;
-
-        &.one {
-          height: 130%;
-          width: 130%;
-          animation-duration: 4s;
-        }
-        &.two {
-          height: 140%;
-          width: 140%;
-          animation-duration: 2.5s;
-        }
-        &.three {
-          height: 150%;
-          width: 150%;
-          animation-duration: 1.5s;
-        }
-      }
-
-      &:hover {
-        @media screen and (prefers-reduced-motion: no-preference) {
-          .blob {
-            animation-play-state: running;
-          }
-        }
-      }
-    }
   }
 
   @keyframes spin {
